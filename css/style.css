@@ -475,6 +475,13 @@ margin: 0px;
 	.ind{
 		height: 200px;
 	}
+    .i-block{
+        margin-left: 0px;
+    }
+    .k-block{
+        margin-top: 5px;
+        margin-left: 0px;
+    }
 }
 @media (max-width: 480px) {
     .slogan h1{
@@ -484,12 +491,6 @@ margin: 0px;
 		font-size: 24px;
         left: 10%;
 	}
-    .i-block{
-        margin-left: 0px;
-    }
-    .k-block{
-        margin-top: 5px;
-        margin-left: 0px;
-    }
+
 
 }
