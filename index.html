@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Import CSS -->
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/jquery.scrollto.min.js"></script>
@@ -199,17 +199,7 @@
 		&copy; 2016 Mercato Caffe. Designed with lots of love at <a id="attribution" href="">DotPack</a>.
 	</div>
     <script>
-    var avatarElem = document.getElementById('header');
 
-    var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset;
-
-    window.onscroll = function() {
-      if (avatarElem.classList.contains('appear') && window.pageYOffset < avatarSourceBottom) {
-        avatarElem.classList.remove('appear');
-      } else if (window.pageYOffset > avatarSourceBottom) {
-        avatarElem.classList.add('appear');
-      }
-    };
   </script>
 </body>
 </html>
