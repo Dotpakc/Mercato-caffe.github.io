@@ -1,205 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MERCATO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/jquery-1.7.2.min.js"><\/script>')</script><script src="assets/js/jquery-1.7.2.min.js"></script>
+		<script src="assets/js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script src="assets/js/jquery.imagesloaded.min.js"></script>
+		<script src="assets/js/video.js"></script>
+		<script src="assets/js/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/bigvideo.js"></script>
 
-	<title>Mercato-Сaffe</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="HandheldFriendly" content="true">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Import CSS -->
-	<link rel="stylesheet" href="css/main.css">
+		<link href="assets/css/main.css" rel="stylesheet">
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/jquery.scrollto.min.js"></script>
-	<script src="js/slabtext.min.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/main.js"></script>
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
-<body class="home color">
-	
-	<div class="hero" id="home">
-        <div id="header">
-        <div class="row">
+<body>
 
-                <i id="nav-button" class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+  <!-- Navbar -->
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</a>
+          	<a class="brand scroller" data-section="html" href="index.html">Mercato Caffe</a>
+		  	<div class="nav-collapse collapse">
 
-                <h2 id="logo"><a href="index.html">Mercato <span class="highlight">Caffe</span></a></h2>
-				
+                <ul class="nav pull-right">
+					<li><a href="#" class="scroller" data-section="#intro">Главная</a></li>
+                    <li><a href="#" class="scroller" data-section="#about">Продукция</a></li>
 
-				<div id="top-nav">
-					<ul id="fixed-nav">
-						<li class="current"><a href="#home">Главная</a></li>
-                        <li><a href="#prods">Продукция</a></li>
-						<li><a href="#services">Услуги</a></li>
-						<li><a href="#aboutus">О нас</a></li>
-                        <li><a href="#dostav">Доставка</a></li>
-						<li><a href="#contact">Контакты</a></li>
-                        <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
-				        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-				        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                     </ul>
-                    
-				</div>
+					 <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Услуги
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Обучение</a></li>
+                            <li><a href="#">Аренда</a></li>
+                            <li><a href="#">Кофеварка в офис</a></li>
+							<li><a href="#">HoReCA</a></li>
+                        </ul>
+                    </li>
 
-			</div>
-		</div>
-		<div class="slogan">
-			<div  class="vcenter container">
-
-				<div class="row">
-
-					<div class="span12">
-						<h1>Обжарка кофейных зёрен технологией «fluid bed»</h1>
-					</div>
-				</div>
-			</div>
-		</div>
+                    <li><a href="#" class="scroller" data-section="#contact">О нас</a></li>
+					<li><a href="#" class="scroller" data-section="#contact">Доставка</a></li>
+					<li><a href="#" class="scroller" data-section="#contact">Контакты</a></li>
 
 
-	</div>
-	<!-- End Full screen banner  -->
-	<!-- Services Section -->
-	<!-- class section-alt is to give a different color please edit css/style.css to change the color -->
-	<div class="section" id="prods">
-		<div class="container">
-			<div class="content">
-				<div class="row" >
-					<div class="title">
-						<h2>Продукция</h2>
-						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-						<p>Кофе:молотое, в зернах, смеси</p>
-                        <p>Джасты</p>
-					</div>
-				</div>
-				<div class="row">
-                    
-					<div class="span3 i-block">
-						<img src="img/ind.jpg" class="ind">
-                        <h3>Mercato Coffee из Индии</h3>
-						<p>Вкус: нежный, бархатный, напоминает чёрный шоколад с лёгкой горчинкой. </p>
-                        <p>Аромат: шоколадные ноты, приятные цитрусовые оттенки.</p>
-					</div>
-					<div class="span3 i-block">
-						<img src="img/efi.jpg" class="ind">
-						<h3>Mercato Coffee из Эфиопии</h3>
-						<p>Вкус: крепкий и бархатный, с винным привкусом и лёгкой цитрусовой кислинкой.</p>
-                        <p>Аромат: стойкий, ярко выраженный.</p>
-					</div>
-					<div class="span3 i-block">
-						<img src="img/braz.jpg" class="ind">
-						<h3>Mercato Coffee из Бразилии</h3>
-						<p>Вкус: ярко выраженный, сбалансированная кислинка и сладковатые ноты, пряное послевкусие.</p>
-                        <p>Аромат: яркий, насыщенный с приятными ореховыми оттенками. </p>
-					</div>
-                    <div class="span3 i-block">
-						<img src="img/kolum.jpg" class="ind">
-						<h3>Mercato Coffee из Колумбии</h3>
-						<p>Вкус: безупречно мягкий, глубокий с характерной, едва заметной кислинкой. </p>
-                        <p>Аромат: шоколад и винные ноты, лёгкие фруктовые оттенки. </p>
-					</div>
-				</div>
-				<div class="hr hr-invisible"></div>
-				<div class="row">
-					<div class="span4 k-block">
-						
-						<h3>Арабика</h3>
-						<p></p>
-					</div>
-					<div class="span4 k-block">
-						
-						<h3>Робуста</h3>
-						<p>L</p>
-					</div>
-					<div class="span4 k-block">
-						
-						<h3>Эспрессо бленды</h3>
-						<p>Lorem </p>
-					</div>
+
+                </ul>
+
+	        </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Navbar -->
+
+
+	<div class="main-container">
+
+	<!-- #intro -->
+		<div class="container-fluid" id="intro">
+			<div class="container">
+				<div class="row span6 center">
+					<h1>Обжарка кофейных зёрен технологией «fluid bed»</h1>
+					<p></p>
+					<a href="#" class="btn btn-xlarge btn-purple">Оставить заявку</a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- End Services Section -->
-	<!-- About Us section -->
-	<div class="section bg-fixed  " id="aboutus">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span12">
-						<div class="title">
-							<h2>О нас</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-							<p>Кофе и только кофе!</p>
+    <!-- ends Intro -->
 
-						</div>
-						<p class="text-center">
-							Обжариваем кофейные зерна высокого качества (работаем в тесном контакте с международными трейдерами и поставщиками редких сортов зеленого кофе, таких как NeumannKaffeeGroup, Trabocca BV, ListBeislerGmbH, BeneckeCoffee).
-						</p>
-						<p class="text-center">
-							Внедрили особый принцип обработки кофейных зерен «fluidbed», технологию «кипящего слоя» - обжаривание кофе в горячем воздушном потоке. Это дает неоспоримое преимущество в чистом вкусовом профиле, ярком и сочном аромате «fresh» кофе.
-						</p>
-                        <p class="text-center">
-							В настоящее время предлагаем Вам более 100 самых популярных и полюбившихся моносортов кофе из <i>Индонезии, Бразилии, Мексики, Колумбии, Эфиопии, Никарагуа, Гватемалы, Перу, Коста-Рики, Доминиканской Республики, Уганды.</i>
-						</p>
-                        <p class="text-center">
-							Внедрили особый принцип обработки кофейных зерен «fluidbed», технологию «кипящего слоя» - обжаривание кофе в горячем воздушном потоке. Это дает неоспоримое преимущество в чистом вкусовом профиле, ярком и сочном аромате «fresh» кофе.
-						</p>
-					</div>
-				</div>
+
+     <!-- #pronds -->
+		<div class="container-fluid" id="prods">
+			<div class="container light">
+			<h1>Продукция</h1>
+		<ul class="thumbnails">
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <img alt="" src="assets/img/ind.jpg" width="120px" >
+		      <h3>Mercato Coffee из Индии</h3>
+		      <p>Вкус: нежный, бархатный, напоминает чёрный шоколад с лёгкой горчинкой. </p>
+				<p>Аромат: шоколадные ноты, приятные цитрусовые оттенки. </p>
+		    </div>
+		  </li>
+
+		  <li class="span3">
+		    <div class="thumbnail">
+		      <img alt="" src="assets/img/efi.jpg" width="120px" >
+		      <h3>Mercato Coffee из Эфиопии</h3>
+		      <p>Вкус: крепкий и бархатный, с винным привкусом и лёгкой цитрусовой кислинкой.</p>
+				<p>Аромат: стойкий, ярко выраженный.</p>
+		    </div>
+		  </li>
+
+		  <li class="span3">
+		    <div class="thumbnail">
+		       <img alt="" src="assets/img/braz.jpg" width="120px">
+		      <h3>Mercato Coffee из Бразилии</h3>
+		      <p>Вкус: ярко выраженный, сбалансированная кислинка и сладковатые ноты, пряное послевкусие.</p>
+				<p>Аромат: яркий, насыщенный с приятными ореховыми оттенками</p>
+		    </div>
+		  </li>
+			<li class="span3">
+		    <div class="thumbnail">
+		       <img alt="" src="assets/img/kolum.jpg" width="120px">
+		      <h3>Mercato Coffee из Колумбии</h3>
+		      <p>Вкус: безупречно мягкий, глубокий с характерной, едва заметной кислинкой. </p>
+				<p>Аромат: шоколад и винные ноты, лёгкие фруктовые оттенки. </p>
+		    </div>
+		  </li>
+		</ul>
+	</div>
+		</div>
+     <!-- ends pronds -->
+
+
+      <!-- #team -->
+		<div class="container-fluid" id="team">
+			<div class="container dark">
+				<h1>О нас</h1>
+				<div class="span6">
+				<p> Обжариваем кофейные зерна высокого качества (работаем в тесном контакте с международными трейдерами и поставщиками редких сортов зеленого кофе, таких как NeumannKaffeeGroup, Trabocca BV, ListBeislerGmbH, BeneckeCoffee).</p>
+				<p>Внедрили особый принцип обработки кофейных зерен «fluidbed», технологию «кипящего слоя» - обжаривание кофе в горячем воздушном потоке. Это дает неоспоримое преимущество в чистом вкусовом профиле, ярком и сочном аромате «fresh» кофе.</p>
+				<p>В настоящее время предлагаем Вам более 100 самых популярных и полюбившихся моносортов кофе из Индонезии, Бразилии, Мексики, Колумбии, Эфиопии, Никарагуа, Гватемалы, Перу, Коста-Рики, Доминиканской Республики, Уганды.</p>
+				<p>Внедрили особый принцип обработки кофейных зерен «fluidbed», технологию «кипящего слоя» - обжаривание кофе в горячем воздушном потоке. Это дает неоспоримое преимущество в чистом вкусовом профиле, ярком и сочном аромате «fresh» кофе. </p></div>
+				<div class="span5"><img src="assets/img/bg1.jpg" width="100%"></div>
 			</div>
-		</div> 
+		</div>
+      <!-- End Team -->
+
+      <!-- #contact -->
+		<div class="container-fluid" id="contact">
+			<div class="container dark">
+		<h1>Контакты</h1>
+
+
+
+		<div class="span3">
+				<h2>Pop in for a chat</h2>
+
+				<p>Nulla facilisi.</p>
+
+				<address>
+				  <strong>Наш офис:</strong><br>
+				  Днепр, ул. Михаила Грушевского, 4б <br>
+				  <abbr title="Kievstar">Kievstar:</abbr> (000) 600-000-00<br>
+				<abbr title="MTS">MTS:</abbr> (000) 600-000-00<br><br>
+					<strong>E-mail</strong><br>
+				  <a href="mailto:#">first.last@example.com</a>
+				</address>
+		</div>
+		<div class="span5">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.7408603394824!2d35.04263945089927!3d48.461501436421884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2de0c84bf51%3A0xef860c37cb98e55c!2zNEIsINCy0YPQu9C40YbRjyDQnNC40YXQsNC50LvQsCDQk9GA0YPRiNC10LLRgdGM0LrQvtCz0L4sIDTQkSwg0JTQvdGW0L_RgNC-zIEsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1480950411984" style="border:0" allowfullscreen="" width="100%" height="300px" frameborder="0"></iframe>
+		</div>
+
+		<div class="span3">
+			<form>
+				  <div class="control-group">
+				    <label class="control-label" for="inputName">Имя</label>
+				    <div class="controls">
+				      <input class="span4" id="inputName" placeholder="Имя" type="text">
+				    </div>
+				  </div>
+				  <div class="control-group">
+				    <label class="control-label" for="inputEmail">E-mail</label>
+				    <div class="controls">
+				      <input class="span4" id="inputEmail" placeholder="E-mail" type="text">
+				    </div>
+				  </div>
+				  <div class="control-group">
+				    <label class="control-label" for="inputContact">Сообщение</label>
+				    <div class="controls">
+				     <textarea id="inputContact" class="span4"></textarea>
+				    </div>
+				  </div>
+				  <div class="control-group">
+				    <div class="controls">
+				      <button type="submit" class="btn btn-purple">Отправить</button>
+				    </div>
+				  </div>
+			</form>
+		</div>
 
 	</div>
-	<!-- End About US -->
-	<!-- Features Section -->
-
-	<!-- Contact Section -->
-	<div class="section" id="contact" >
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="span12">
-						<div class="title">
-							<h2>Контакты</h2>
-							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
-							<p></p>
-
-						</div>
-					</div>
-					<div class="span8">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.7408603394824!2d35.04263945089927!3d48.461501436421884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2de0c84bf51%3A0xef860c37cb98e55c!2zNEIsINCy0YPQu9C40YbRjyDQnNC40YXQsNC50LvQsCDQk9GA0YPRiNC10LLRgdGM0LrQvtCz0L4sIDTQkSwg0JTQvdGW0L_RgNC-zIEsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1480950411984" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-					<div class="span4">
-						<h4>Наш офис:</h4>
-						<p>Днепр, ул. Михаила Грушевского, 4б </p>
-						<hr class="grey"/>
-						<h4>Email &amp; Номер</h4>
-						<p>mercatocaffe.ua@gmail.com </p>
-						<p>000-60000000</p>
-						<hr class="grey"/>
-						<h4>Мы в социальных сетях</h4>
-						<div class="social">
-                            <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
-				        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-				        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div> 
-
+		</div>
+	<!-- End Contact -->
 	</div>
-	<!-- End Contact Section -->
-	<div id="footer">
-		&copy; 2016 Mercato Caffe. Designed with lots of love at <a id="attribution" href="">DotPack</a>.
-	</div>
-    <script>
 
-  </script>
-</body>
-</html>
+<script>
+$(function () {
+    $(window).scroll(function(){
+    // global scroll to top button
+        if ($(this).scrollTop() > 300) {
+            $('.scrolltop').fadeIn();
+        } else {
+            $('.scrolltop').fadeOut();
+        }
+    });
+
+    // scroll nav
+    $('.scroller').click(function(){
+    	var section = $($(this).data("section"));
+    	var top = section.offset().top-82;
+        $("html, body").animate({ scrollTop: top }, 700);
+        return false;
+    });
+
+
+
+
+
+});
+</script>
+
+
+</body></html>
